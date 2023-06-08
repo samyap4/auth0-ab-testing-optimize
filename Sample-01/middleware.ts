@@ -27,9 +27,7 @@ export function middleware(req: NextRequest) {
 
   // `0` is the original version
   if (variantId !== '0') {
-    const url = new URL(req.url);
     url.pathname = `/api/auth/portal-1-login`;
-    return rewrite(url);
   }
 
   const res = NextResponse.rewrite(url)
