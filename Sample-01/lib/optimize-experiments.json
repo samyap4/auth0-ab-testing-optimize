@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Auth0 Universal Login",
+      "id": "5704828d-5819-49bb-902e-4a03a1e18da1",
+      "variants": [
+        {
+          "name": "original",
+          "id": 0,
+          "weight": 50
+        },
+        {
+          "name": "Variant 1",
+          "id": 1,
+          "weight": 50
+        }
+      ]
+    }
+  ]
