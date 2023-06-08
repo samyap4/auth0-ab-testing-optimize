@@ -7,7 +7,7 @@ export const config = {
     matcher: '/api/auth/login',
 };
 
-export function middleware(req: NextRequest) {
+export default function middleware(req: NextRequest) {
 
   let cookie = req.cookies.get(COOKIE_NAME)?.value
 
