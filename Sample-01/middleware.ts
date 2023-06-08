@@ -38,4 +38,6 @@ export function middleware(req: NextRequest) {
   if (!req.cookies.has(COOKIE_NAME)) {
     res.cookies.set(COOKIE_NAME, cookie)
   }
+
+  return res;
 }
