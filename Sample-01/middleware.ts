@@ -1,7 +1,6 @@
-import { rewrite } from '@vercel/edge';
 import { NextRequest, NextResponse } from 'next/server';
-import { COOKIE_NAME } from '@lib/constants'
-import { getCurrentExperiment } from '@lib/optimize'
+import { COOKIE_NAME } from 'lib/constants'
+import { getCurrentExperiment } from 'lib/optimize'
 
 export const config = {
     matcher: '/api/auth/login',
