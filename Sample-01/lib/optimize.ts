@@ -5,6 +5,7 @@ import experiments from './optimize-experiments.json'
  * - You created an experiment in Google Optimize
  * - Then created the pages that will match that experiment, in this case pages/[variant]
  * - Start experimenting and then make decisions without having changed the original pages
+ * testing
  */
 export function getCurrentExperiment() {
   return experiments.find((exp) => exp.name === 'Auth0 Universal Login')
