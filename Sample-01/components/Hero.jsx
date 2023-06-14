@@ -17,7 +17,7 @@ const Hero = () => (
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      This is a sample application that demonstrates how to A/B test the Auth0 Universal Login by using Next.JS edge middleware and Google Optimize
+      This is a sample application that demonstrates how to A/B test the Auth0 Universal Login by using Next.JS edge middleware and Google Optimize.  You can verify your cookie has been set after logging in by looking for: <code>ab-optimize</code>
     </p>
     <Text className="mb-4">
         Click the button below if you want to change the current variant (each
